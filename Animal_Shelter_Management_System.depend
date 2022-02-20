@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1637341738 source:e:\programs\c\projects\animal_shelter_management_system\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+	<setjmp.h>
+
