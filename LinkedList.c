@@ -7,6 +7,7 @@
 //#include <setjmp.h>
 
 #include "LinkedList.h"
+#include "dataStore.h"
 
 void printList( ListNodePtr currentPtr)
 {
@@ -79,11 +80,11 @@ void displayUserInterface(ListNodePtr *head)
         showNodeValuesAtPosition(head,pet_name);
         break;
     case 5:
-       // checkShelterStatus();
+        checkShelterStatus();
         break;
     case 6:
         printf("\n...Exiting...\n");
-        //writeData(*head);                               //DODAC WRITE DATA
+        writeData(*head);
         exit(0);
     default:
         printf("\n...Invalid Choice...\n");

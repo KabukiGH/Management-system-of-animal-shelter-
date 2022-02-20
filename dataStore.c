@@ -100,3 +100,26 @@ void loadData(ListNodePtr *head)
     free(result_read_info);
 
 }
+
+
+void writeData(ListNodePtr currentPtr)
+{
+    /* Create file pointer*/
+    FILE *fp = fopen(FILENAME, "w");
+
+    if (!fp)
+    {
+        fprintf(stderr, "Error opening file '%s'\n", FILENAME);
+        exit(1);
+    }
+    else
+    {
+        while(currentPtr !=NULL)
+        {
+            fprintf(fp,"%ld %s %s\n",currentPtr ->animal_ID, currentPtr ->animal_name,currentPtr ->animal_species);
+            currentPtr = currentPtr ->nextPtr;
+        }
+        /* Close the file now that we are done with it */
+        fclose(fp);
+    }
+}
