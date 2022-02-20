@@ -1,9 +1,8 @@
 # depslib dependency file v1.0
-1645377416 source:e:\programs\c\projects\animal_shelter_management_system\main.c
-	<stdio.h>
-	<stdlib.h>
-	"LinkedList.h"
+1645377994 source:e:\programs\c\projects\animal_shelter_management_system\main.c
 	"dataStore.h"
+	"LinkedList.h"
+	<stdbool.h>
 
 1645376859 source:e:\programs\c\projects\animal_shelter_management_system\linkedlist.c
 	<time.h>

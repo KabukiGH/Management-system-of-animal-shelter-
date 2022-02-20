@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-#include "LinkedList.h"
 #include "dataStore.h"
+#include "LinkedList.h"
+#include <stdbool.h>
+
 
 /* global variables */
 int current_animals_number = 0;
@@ -28,11 +27,11 @@ int main()
     }
 
 
-//    while(true)
-//    {
-//        displayUserInterface(&head);
-//
-//    } // end while
+    while(true)
+    {
+        displayUserInterface(&head);
+
+    } // end while
 
     return 0;
 } // end main
