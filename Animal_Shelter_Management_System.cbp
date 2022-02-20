@@ -28,14 +28,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="backup.c">
+		<Unit filename="LinkedList.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="backupV2.c">
+		<Unit filename="LinkedList.h" />
+		<Unit filename="dataStore.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="dataStore.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
